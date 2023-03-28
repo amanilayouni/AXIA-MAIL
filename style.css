@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Lobster+Two&family=Poppins:ital,wght@0,500;1,300;1,400;1,600&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charm&family=Cinzel:wght@500&family=Courgette&family=Flamenco&family=Great+Vibes&family=Kaushan+Script&family=Lobster+Two&family=McLaren&family=Poppins:ital,wght@0,500;1,300;1,400;1,600&family=Satisfy&display=swap');
+
+body{
+    background: #f1f1f1;
+  
+}
+
+*{
+    
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding:0;
+    outline: none;
+    border:none;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: all 0.2s ease-in;
+    
+}
+
+a{
+  text-decoration: none;
+}
+
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 5rem;
+    scroll-behavior: smooth;
+}
+html::-webkit-scrollbar{
+    width:1rem;
+}
+
+html::-webkit-scrollbar-track{
+    background:transparent;
+}
+
+
+
+.header .he1{
+    background:#fff;
+    padding:0.1rem 9%;
+    display: flex;
+   
+}
+
+.header .he1 .logo img{
+    width: 140PX;
+    height: 80PX;
+    align-items: LEFT;
+    margin-top: 20PX;
+    margin-left: -70PX;
+
+}
+.header .he1 h2{
+margin-top: 27PX;
+margin-left: 450PX;
+font-size: 34PX;
+color: #3596F7;
+}
+.header .he1 h2 span{
+    font-size: 40PX;
+    color: #04837F;
+    }
+    
+
+.aa{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45PX;
+    margin-left: 75PX;
+    font-size: 20PX;
+    font-weight: 400;
+
+}
+
+.aa  .fa-house{
+  
+ font-size: 22PX;
+margin-right: 6PX;
+
+
+}
+  
+.aa img{
+    width: 30PX;
+    margin-right: 20PX;
+}
+
+.aa .search-form {
+
+    width:40rem;
+    height:5rem;
+    border:3px solid rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display:flex;
+    align-items: center;
+    border-radius: 50px;
+    margin-right: 30PX;
+  
+}
+.aa .search-form input{
+
+    width:40rem;
+    height:5rem;
+  margin-left: 20PX;
+  background-color: #f1f1f1;
+}
+
+.aa .search-form:hover {
+    border:3px solid rgb(167, 208, 255);
+}
+
+.fa-house{
+    text-decoration: none;
+    color: black;
+}
+.ss{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30PX;
+}
+.ss .btnajouter{
+    font-size: 13px;
+    width: 150px;
+    height: 45px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 18px;
+    font-weight: bold;
+    margin-left: 90PX;
+    background-color: #C9E5FF;
+}
+.ss .checkbox {
+    margin-right: 10PX;
+    margin-top: 10PX;
+}
+.ss p {
+    margin-right: 150PX;
+    font-size: 15PX;
+    font-weight: 500;
+}
+
+input[type='checkbox'] {
+   width: 17PX;
+   height: 17PX;
+}
+
+.mainn{
+    width: 80%;
+    background: #fff;
+    padding: 20px 30px;
+    margin:  20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 10%);
+}
+
+
+
+ .btnsup{
+    font-size: 13px;
+    width: 150px;
+    height: 45px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 18px;
+    color: white ;
+    font-weight: bold;
+    margin-left: 1220PX;
+    background-color: #04837F;
+}
+
+
+ .btnsup:hover{
+    background-color: #C9E5FF;
+    color: black;
+    transform: scale(1.1);
+}
+
+.ss .btnajouter:hover{
+    transform: scale(1.1);
+}
+
+table img{
+    width: 22PX;
+    height: 22PX;
+    margin: 10PX;
+}
+
+.ppp {
+opacity: 0.1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

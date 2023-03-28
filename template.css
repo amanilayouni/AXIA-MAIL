@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Lobster+Two&family=Poppins:ital,wght@0,500;1,300;1,400;1,600&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charm&family=Cinzel:wght@500&family=Courgette&family=Flamenco&family=Great+Vibes&family=Kaushan+Script&family=Lobster+Two&family=McLaren&family=Poppins:ital,wght@0,500;1,300;1,400;1,600&family=Satisfy&display=swap');
+
+body{
+    background: #f1f1f1;
+  
+}
+
+*{
+    
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding:0;
+    outline: none;
+    border:none;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: all 0.2s ease-in;
+    
+}
+
+a{
+  text-decoration: none;
+}
+
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 5rem;
+    scroll-behavior: smooth;
+}
+html::-webkit-scrollbar{
+    width:1rem;
+}
+
+html::-webkit-scrollbar-track{
+    background:transparent;
+}
+
+
+
+.header .he1{
+    background:#fff;
+    padding:0.1rem 9%;
+    display: flex;
+   
+}
+
+.header .he1 .logo img{
+    width: 140PX;
+    height: 80PX;
+    align-items: LEFT;
+    margin-top: 20PX;
+    margin-left: -70PX;
+
+}
+.header .he1 h2{
+margin-top: 27PX;
+margin-left: 450PX;
+font-size: 34PX;
+color: #3596F7;
+}
+.header .he1 h2 span{
+    font-size: 40PX;
+    color: #04837F;
+    }
+    
+
+
+.ee{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ee a{
+    font-size: 20PX;
+    margin-top: 30PX;
+    color: black;
+    margin-left: 50PX;
+}
+
+.ss{
+   
+    margin-top: 30PX;
+    color: black;
+    margin-right: 40PX;
+}
+.ss button{
+   
+ 
+    margin-right: 20PX;
+    font-size: 14px;
+    width: 150px;
+    height: 45px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 18px;
+    font-weight: bold;
+    background-color: #C9E5FF;
+}
+.btn button{
+    margin-top: 400PX;
+    color: white;
+    margin-left: 1300PX;
+    font-size: 14px;
+    width: 150px;
+    height: 45px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 18px;
+    font-weight: bold;
+    background-color: #04837F;
+}
